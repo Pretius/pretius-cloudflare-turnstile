@@ -1,0 +1,37 @@
+{
+  "name" : "Pretius Cloudflare Turnstile",
+  "version" : "26.1.0",
+  "description" : "Item plug-in that adds a Cloudflare Turnstile challenge to APEX pages and verifies it on the server",
+  "keywords" : ["turnstile", "cloudflare", "captcha", "recaptcha", "bot protection", "spam", "security", "item", "pretius"],
+  "homepage" : "https://github.com/pretius/pretius-cloudflare-turnstile",
+  "bugs" : {
+    "url" : "https://github.com/pretius/pretius-cloudflare-turnstile/issues",
+    "email" : "mmulvaney@pretius.com"
+  },
+  "license" : "MIT",
+  "commercial" : "No",
+  "commercially_supported": "No",
+  "author" : {
+    "name" : "Matt Mulvaney",
+    "email" : "mmulvaney@pretius.com",
+    "url" : "https://pretius.com/blog/",
+    "twitter" : "Matt_Mulvaney",
+    "donationUrl" : "https://donate.saintmichaelshospice.org/"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/pretius/pretius-cloudflare-turnstile.git"
+  },
+  "oracle" : {
+    "versions" : ["19.2.0.1"],
+    "apex" : {
+      "versions" : ["26.1.0"],
+      "plugin" : {
+        "internalName" : "COM.PRETIUS.APEX.TURNSTILE",
+        "type" : "item",
+        "demo" : "https://oracleapex.com/ords/r/luf/cloudflare-turnstile",
+        "previewImage" : "https://raw.githubusercontent.com/pretius/pretius-cloudflare-turnstile/main/assets/preview.gif"
+      }
+    }
+  }
+}
